@@ -1,0 +1,34 @@
+{ 
+    "host":"http://10.224.0.15:80",
+    "url_event":"/openapi/service/eps/subscribeEventsFromMQEx",
+    "screct":"fe6bd23cd8574f64af69983b22255da2",
+    "params_event":{
+        "appkey": "a71bff49", 
+        "time": 1479364577369, 
+        "opUserUuid": "5b2eb534696b11e89c2e438f92627767", 
+        "eventTypes": "327681"
+    },
+    "url_user":"/openapi/service/base/user/getDefaultUserUuid",
+    "params_user":{
+        "appkey":"a71bff49",
+        "time":1479364577369
+    },
+    "result":{
+        "errorCode":0,
+        "errorMessage":null,
+        "data":"ef51b7a4bbaa11e6b086838b707212fa"
+    },
+    "test":{
+        "start_time":"20181217",
+        "source_idx":"00000001"
+    },
+    "rabbitmq":{
+        "username":"trkj",
+        "password":"trkj",
+        "host":"192.168.5.16",
+        "port":5672,
+        "virtualhost":"/",
+        "exchange":"gj.test",
+        "routing_key":"gj"
+    }
+}
